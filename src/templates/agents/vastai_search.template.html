@@ -46,8 +46,8 @@
               <td>&nbsp;</td>
             {{ENDIF}}
             <td><a title="See Details" href="vastaiAgentsRent.php?rent=[[gpu.getVal('id')]]">[[gpu.getVal('id')]]</a></td>
-            <td>[[gpu.getVal('dph_total')]]</td>
-            <td>[[gpu.getFloatVal100('reliability2',0)]] %</td>
+            <td>[[gpu.getFloatVal('dph_total',4)]]</td>
+            <td>[[gpu.getFloatVal100('reliability2',2)]] %</td>
             <td>[[gpu.getVal('gpu_name')]]</td>
             <td>[[gpu.getVal('num_gpus')]]</td>
             <td>[[gpu.getVal('gpu_ram')]]</td>
