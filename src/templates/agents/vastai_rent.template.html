@@ -14,7 +14,7 @@
     {{IF [[rentType]] != 'bulk'}}
       <tr>
           <td>Total Cost ($/hr)</td>
-          <td>[[gpu.getVal('dph_total')]]</td>
+          <td>[[gpu.getVal('dph_total', 4)]]</td>
       </tr>
       <tr>
           <td>Reliability</td>
